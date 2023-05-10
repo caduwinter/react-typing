@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  background-color: rgb(20, 22, 24);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .keyboardImg {
+  height: 90px;
+  width: 90px;
+  color: black;
+} */
+.header p {
+  color: white;
+  margin: 0;
+}
+.modes {
+  display: flex;
+}
+.modes p {
+  margin: 0 15px;
+}
+.modes .active {
+  border-bottom: 1px solid black;
+}
